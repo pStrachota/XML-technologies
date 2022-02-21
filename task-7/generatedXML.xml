@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xslSVG.xsl"?>
+
+<task7>
+    <authorInfo>
+        <authorName>Piotr Strachota</authorName>
+        <index>236660</index>
+    </authorInfo>
+    <bookCatalog>
+        <book>
+            <bookId>S1</bookId>
+            <libraryDepartment>Comic Book</libraryDepartment>
+            <author>Jerry Siegel</author>
+            <bookseller>DC Comics</bookseller>
+            <bookTitle>Superman</bookTitle>
+            <bookValue>
+                <bookValueInPLN>6.99</bookValueInPLN>
+                <bookValueInUSD>1.75</bookValueInUSD>
+                <bookValueInEUR>1.54</bookValueInEUR>
+            </bookValue>
+            <coverType>hard</coverType>
+            <bookRelease date="1938"/>
+            <discount>
+                <discountInPLN>1</discountInPLN>
+                <discountInEUR>1</discountInEUR>
+                <discountInUSD>1</discountInUSD>
+            </discount>
+            <readersRating>91</readersRating>
+        </book>
+        <book>
+            <bookId>LDV1</bookId>
+            <libraryDepartment>Biography</libraryDepartment>
+            <author>Charles Nicholl</author>
+            <bookseller>Simon and Shuster</bookseller>
+            <bookTitle>Leonardo da Vinci</bookTitle>
+            <bookValue>
+                <bookValueInPLN>41.99</bookValueInPLN>
+                <bookValueInUSD>10.5</bookValueInUSD>
+                <bookValueInEUR>9.24</bookValueInEUR>
+            </bookValue>
+            <coverType>hard</coverType>
+            <bookRelease date="2017"/>
+            <discount>
+                <discountInPLN>9</discountInPLN>
+                <discountInEUR>3</discountInEUR>
+                <discountInUSD>2</discountInUSD>
+            </discount>
+            <readersRating>90</readersRating>
+        </book>
+        <book>
+            <bookId>TGA1</bookId>
+            <libraryDepartment>History</libraryDepartment>
+            <author>Barbara Tuchman</author>
+            <bookseller>Simon and Shuster</bookseller>
+            <bookTitle>The Guns of August</bookTitle>
+            <bookValue>
+                <bookValueInPLN>45.99</bookValueInPLN>
+                <bookValueInUSD>11.5</bookValueInUSD>
+                <bookValueInEUR>10.12</bookValueInEUR>
+            </bookValue>
+            <coverType>hard</coverType>
+            <bookRelease date="1962"/>
+            <discount>
+                <discountInPLN>19</discountInPLN>
+                <discountInEUR>5</discountInEUR>
+                <discountInUSD>5</discountInUSD>
+            </discount>
+            <readersRating>90</readersRating>
+        </book>
+        <book>
+            <bookId>TBT1</bookId>
+            <libraryDepartment>Fantasy</libraryDepartment>
+            <author>Markus Zusak</author>
+            <bookseller>Picador</bookseller>
+            <bookTitle>The book thief</bookTitle>
+            <bookValue>
+                <bookValueInPLN>42.99</bookValueInPLN>
+                <bookValueInUSD>10.75</bookValueInUSD>
+                <bookValueInEUR>9.46</bookValueInEUR>
+            </bookValue>
+            <coverType>hard</coverType>
+            <bookRelease date="2005"/>
+            <discount>
+                <discountInPLN>9</discountInPLN>
+                <discountInEUR>3</discountInEUR>
+                <discountInUSD>2</discountInUSD>
+            </discount>
+            <readersRating>88</readersRating>
+        </book>
+        <book>
+            <bookId>ASH1</bookId>
+            <libraryDepartment>Detective</libraryDepartment>
+            <author>Arthur Conan Doyle</author>
+            <bookseller>Dover Publications</bookseller>
+            <bookTitle>The Adventures of Sherlock Holmes</bookTitle>
+            <bookValue>
+                <bookValueInPLN>29.99</bookValueInPLN>
+                <bookValueInUSD>7.5</bookValueInUSD>
+                <bookValueInEUR>6.6</bookValueInEUR>
+            </bookValue>
+            <coverType>soft</coverType>
+            <bookRelease date="1892"/>
+            <discount>
+                <discountInPLN>6</discountInPLN>
+                <discountInEUR>2</discountInEUR>
+                <discountInUSD>2</discountInUSD>
+            </discount>
+            <readersRating>87</readersRating>
+        </book>
+        <book>
+            <bookId>SJTEB1</bookId>
+            <libraryDepartment>Biography</libraryDepartment>
+            <author>Walter Isaacson</author>
+            <bookseller>Simon and Shuster</bookseller>
+            <bookTitle>Steve Jobs: The Exclusive Biography</bookTitle>
+            <bookValue>
+                <bookValueInPLN>29.99</bookValueInPLN>
+                <bookValueInUSD>7.5</bookValueInUSD>
+                <bookValueInEUR>6.6</bookValueInEUR>
+            </bookValue>
+            <coverType>hard</coverType>
+            <bookRelease date="2011"/>
+            <discount>
+                <discountInPLN>6</discountInPLN>
+                <discountInEUR>2</discountInEUR>
+                <discountInUSD>2</discountInUSD>
+            </discount>
+            <readersRating>87</readersRating>
+        </book>
+        <book>
+            <bookId>GOT1</bookId>
+            <libraryDepartment>Fantasy</libraryDepartment>
+            <author>George Raymond Richard Martin</author>
+            <bookseller>Voyager Books</bookseller>
+            <bookTitle>A Game of Thrones</bookTitle>
+            <bookValue>
+                <bookValueInPLN>55.99</bookValueInPLN>
+                <bookValueInUSD>14</bookValueInUSD>
+                <bookValueInEUR>12.32</bookValueInEUR>
+            </bookValue>
+            <coverType>hard</coverType>
+            <bookRelease date="1996"/>
+            <discount>
+                <discountInPLN>23</discountInPLN>
+                <discountInEUR>6</discountInEUR>
+                <discountInUSD>5</discountInUSD>
+            </discount>
+            <readersRating>86</readersRating>
+        </book>
+        <book>
+            <bookId>LOTRTT1</bookId>
+            <libraryDepartment>Fantasy</libraryDepartment>
+            <author>John Ronald Reuel Tolkien</author>
+            <bookseller>Allen and Ulwin</bookseller>
+            <bookTitle>The Lord of the Rings. The two towers</bookTitle>
+            <bookValue>
+                <bookValueInPLN>32.99</bookValueInPLN>
+                <bookValueInUSD>8.25</bookValueInUSD>
+                <bookValueInEUR>7.26</bookValueInEUR>
+            </bookValue>
+            <coverType>hard</coverType>
+            <bookRelease date="1955"/>
+            <discount>
+                <discountInPLN>7</discountInPLN>
+                <discountInEUR>2</discountInEUR>
+                <discountInUSD>2</discountInUSD>
+            </discount>
+            <readersRating>84</readersRating>
+        </book>
+        <book>
+            <bookId>NEF1</bookId>
+            <libraryDepartment>Historical Fiction</libraryDepartment>
+            <author>George Orwell</author>
+            <bookseller>Secker and Warburg</bookseller>
+            <bookTitle>Nineteen Eighty-Four</bookTitle>
+            <bookValue>
+                <bookValueInPLN>5.99</bookValueInPLN>
+                <bookValueInUSD>1.5</bookValueInUSD>
+                <bookValueInEUR>1.32</bookValueInEUR>
+            </bookValue>
+            <coverType>soft</coverType>
+            <bookRelease date="1949"/>
+            <discount>
+                <discountInPLN>1</discountInPLN>
+                <discountInEUR>1</discountInEUR>
+                <discountInUSD>1</discountInUSD>
+            </discount>
+            <readersRating>82</readersRating>
+        </book>
+        <book>
+            <bookId>LW1</bookId>
+            <libraryDepartment>Drama</libraryDepartment>
+            <author>Louisa May Alcott</author>
+            <bookseller>Roberts Brothers</bookseller>
+            <bookTitle>Little Women</bookTitle>
+            <bookValue>
+                <bookValueInPLN>25.99</bookValueInPLN>
+                <bookValueInUSD>6.5</bookValueInUSD>
+                <bookValueInEUR>5.72</bookValueInEUR>
+            </bookValue>
+            <coverType>hard</coverType>
+            <bookRelease date="1868"/>
+            <discount>
+                <discountInPLN>6</discountInPLN>
+                <discountInEUR>2</discountInEUR>
+                <discountInUSD>2</discountInUSD>
+            </discount>
+            <readersRating>82</readersRating>
+        </book>
+        <book>
+            <bookId>LG1</bookId>
+            <libraryDepartment>Poetry</libraryDepartment>
+            <author>Walt Whitman</author>
+            <bookseller>Self</bookseller>
+            <bookTitle>Leaves of Grass</bookTitle>
+            <bookValue>
+                <bookValueInPLN>5.99</bookValueInPLN>
+                <bookValueInUSD>1.5</bookValueInUSD>
+                <bookValueInEUR>1.32</bookValueInEUR>
+            </bookValue>
+            <coverType>soft</coverType>
+            <bookRelease date="1855"/>
+            <discount>
+                <discountInPLN>1</discountInPLN>
+                <discountInEUR>1</discountInEUR>
+                <discountInUSD>1</discountInUSD>
+            </discount>
+            <readersRating>80</readersRating>
+        </book>
+        <book>
+            <bookId>JOC1</bookId>
+            <libraryDepartment>Cookbooks</libraryDepartment>
+            <author>Marion Rombauer Becker</author>
+            <bookseller>Bobbs Merrill Company</bookseller>
+            <bookTitle>The joy of cooking</bookTitle>
+            <bookValue>
+                <bookValueInPLN>23.99</bookValueInPLN>
+                <bookValueInUSD>6</bookValueInUSD>
+                <bookValueInEUR>5.28</bookValueInEUR>
+            </bookValue>
+            <coverType>soft</coverType>
+            <bookRelease date="1931"/>
+            <discount>
+                <discountInPLN>3</discountInPLN>
+                <discountInEUR>1</discountInEUR>
+                <discountInUSD>1</discountInUSD>
+            </discount>
+            <readersRating>79</readersRating>
+        </book>
+        <book>
+            <bookId>RJ1</bookId>
+            <libraryDepartment>Drama</libraryDepartment>
+            <author>William Shakespeare</author>
+            <bookseller>Simon and Shuster</bookseller>
+            <bookTitle>Romeo and Juliet</bookTitle>
+            <bookValue>
+                <bookValueInPLN>9.99</bookValueInPLN>
+                <bookValueInUSD>2.5</bookValueInUSD>
+                <bookValueInEUR>2.2</bookValueInEUR>
+            </bookValue>
+            <coverType>soft</coverType>
+            <bookRelease date="1597"/>
+            <discount>
+                <discountInPLN>1</discountInPLN>
+                <discountInEUR>1</discountInEUR>
+                <discountInUSD>1</discountInUSD>
+            </discount>
+            <readersRating>77</readersRating>
+        </book>
+        <book>
+            <bookId>A1</bookId>
+            <libraryDepartment>Comic Book</libraryDepartment>
+            <author>Rene Goscinny</author>
+            <bookseller>Dargaud</bookseller>
+            <bookTitle>Asterix</bookTitle>
+            <bookValue>
+                <bookValueInPLN>9.99</bookValueInPLN>
+                <bookValueInUSD>2.5</bookValueInUSD>
+                <bookValueInEUR>2.2</bookValueInEUR>
+            </bookValue>
+            <coverType>soft</coverType>
+            <bookRelease date="1959"/>
+            <discount>
+                <discountInPLN>1</discountInPLN>
+                <discountInEUR>1</discountInEUR>
+                <discountInUSD>1</discountInUSD>
+            </discount>
+            <readersRating>76</readersRating>
+        </book>
+        <book>
+            <bookId>MAFC1</bookId>
+            <libraryDepartment>Cookbooks</libraryDepartment>
+            <author>Julia Child</author>
+            <bookseller>Bobbs Merrill Company</bookseller>
+            <bookTitle>Mastering the Art of French Cooking</bookTitle>
+            <bookValue>
+                <bookValueInPLN>3.99</bookValueInPLN>
+                <bookValueInUSD>1</bookValueInUSD>
+                <bookValueInEUR>0.88</bookValueInEUR>
+            </bookValue>
+            <coverType>soft</coverType>
+            <bookRelease date="1961"/>
+            <discount>
+                <discountInPLN>1</discountInPLN>
+                <discountInEUR>1</discountInEUR>
+                <discountInUSD>1</discountInUSD>
+            </discount>
+            <readersRating>76</readersRating>
+        </book>
+        <book>
+            <bookId>HPAPS1</bookId>
+            <libraryDepartment>Fantasy</libraryDepartment>
+            <author>Joanne Kathleen Rowling</author>
+            <bookseller>Bloomsbury</bookseller>
+            <bookTitle>Harry Potter and the philosopher's stone</bookTitle>
+            <bookValue>
+                <bookValueInPLN>8.99</bookValueInPLN>
+                <bookValueInUSD>2.25</bookValueInUSD>
+                <bookValueInEUR>1.98</bookValueInEUR>
+            </bookValue>
+            <coverType>hard</coverType>
+            <bookRelease date="1997"/>
+            <discount>
+                <discountInPLN>1</discountInPLN>
+                <discountInEUR>1</discountInEUR>
+                <discountInUSD>1</discountInUSD>
+            </discount>
+            <readersRating>73</readersRating>
+        </book>
+        <book>
+            <bookId>TM1</bookId>
+            <libraryDepartment>Historical Fiction</libraryDepartment>
+            <author>Alexander Dumas</author>
+            <bookseller>Simon and Shuster</bookseller>
+            <bookTitle>The Three Musketeers</bookTitle>
+            <bookValue>
+                <bookValueInPLN>22.99</bookValueInPLN>
+                <bookValueInUSD>5.75</bookValueInUSD>
+                <bookValueInEUR>5.06</bookValueInEUR>
+            </bookValue>
+            <coverType>hard</coverType>
+            <bookRelease date="1844"/>
+            <discount>
+                <discountInPLN>3</discountInPLN>
+                <discountInEUR>1</discountInEUR>
+                <discountInUSD>1</discountInUSD>
+            </discount>
+            <readersRating>70</readersRating>
+        </book>
+        <book>
+            <bookId>BAR1</bookId>
+            <libraryDepartment>Poetry</libraryDepartment>
+            <author>Adam Mickiewicz</author>
+            <bookseller>Egmont</bookseller>
+            <bookTitle>Ballads and romances</bookTitle>
+            <bookValue>
+                <bookValueInPLN>18.99</bookValueInPLN>
+                <bookValueInUSD>4.75</bookValueInUSD>
+                <bookValueInEUR>4.18</bookValueInEUR>
+            </bookValue>
+            <coverType>soft</coverType>
+            <bookRelease date="1822"/>
+            <discount>
+                <discountInPLN>2</discountInPLN>
+                <discountInEUR>1</discountInEUR>
+                <discountInUSD>1</discountInUSD>
+            </discount>
+            <readersRating>69</readersRating>
+        </book>
+        <book>
+            <bookId>MOE1</bookId>
+            <libraryDepartment>Detective</libraryDepartment>
+            <author>Agatha Christie</author>
+            <bookseller>Collins Crime Club</bookseller>
+            <bookTitle>Murder on the Orient Express</bookTitle>
+            <bookValue>
+                <bookValueInPLN>16.99</bookValueInPLN>
+                <bookValueInUSD>4.25</bookValueInUSD>
+                <bookValueInEUR>3.74</bookValueInEUR>
+            </bookValue>
+            <coverType>soft</coverType>
+            <bookRelease date="1868"/>
+            <discount>
+                <discountInPLN>2</discountInPLN>
+                <discountInEUR>1</discountInEUR>
+                <discountInUSD>1</discountInUSD>
+            </discount>
+            <readersRating>68</readersRating>
+        </book>
+        <book>
+            <bookId>JA1</bookId>
+            <libraryDepartment>History</libraryDepartment>
+            <author>David McCullogh</author>
+            <bookseller>Simon and Shuster</bookseller>
+            <bookTitle>John Adams</bookTitle>
+            <bookValue>
+                <bookValueInPLN>7.99</bookValueInPLN>
+                <bookValueInUSD>2</bookValueInUSD>
+                <bookValueInEUR>1.76</bookValueInEUR>
+            </bookValue>
+            <coverType>hard</coverType>
+            <bookRelease date="2001"/>
+            <discount>
+                <discountInPLN>1</discountInPLN>
+                <discountInEUR>1</discountInEUR>
+                <discountInUSD>1</discountInUSD>
+            </discount>
+            <readersRating>67</readersRating>
+        </book>
+        <book>
+            <bookId>AK1</bookId>
+            <libraryDepartment>Drama</libraryDepartment>
+            <author>Leo Tolstoy</author>
+            <bookseller>Bantam Classics Paperback</bookseller>
+            <bookTitle>Anna Karenina</bookTitle>
+            <bookValue>
+                <bookValueInPLN>8.99</bookValueInPLN>
+                <bookValueInUSD>2.25</bookValueInUSD>
+                <bookValueInEUR>1.98</bookValueInEUR>
+            </bookValue>
+            <coverType>soft</coverType>
+            <bookRelease date="1877"/>
+            <discount>
+                <discountInPLN>1</discountInPLN>
+                <discountInEUR>1</discountInEUR>
+                <discountInUSD>1</discountInUSD>
+            </discount>
+            <readersRating>65</readersRating>
+        </book>
+    </bookCatalog>
+    <report>
+        <valueOfAllBooks>
+            <valueInPLN>457</valueInPLN>
+            <valueInEUR>114.25</valueInEUR>
+            <valueInUSD>100</valueInUSD>
+        </valueOfAllBooks>
+        <numberOfBooks>21</numberOfBooks>
+        <averagePrice>
+            <averagePriceInPLN>22</averagePriceInPLN>
+            <averagePriceInEUR>5</averagePriceInEUR>
+            <averagePriceInUSD>5</averagePriceInUSD>
+        </averagePrice>
+        <cheapestBook>
+            <cheapestBookTitle>Mastering the Art of French Cooking</cheapestBookTitle>
+            <cheapestBookInPLN>3.99</cheapestBookInPLN>
+            <cheapestBookInEUR>1</cheapestBookInEUR>
+            <cheapestBookInUSD>0.88</cheapestBookInUSD>
+        </cheapestBook>
+        <mostExpensiveBook>
+            <mostExpensiveBookTitle>A Game of Thrones</mostExpensiveBookTitle>
+            <mostExpensiveBookInPLN>55.99</mostExpensiveBookInPLN>
+            <mostExpensiveBookInEUR>14</mostExpensiveBookInEUR>
+            <mostExpensiveBookInUSD>12.32</mostExpensiveBookInUSD>
+        </mostExpensiveBook>
+        <bestRatingBook>
+            <bestRatingBookTitle>Superman</bestRatingBookTitle>
+            <bestRatingBookPoints>91</bestRatingBookPoints>
+        </bestRatingBook>
+        <worstRatingBook>
+            <worstRatingBookTitle>Anna Karenina</worstRatingBookTitle>
+            <worstRatingBookPoints>65</worstRatingBookPoints>
+        </worstRatingBook>
+        <numberOfBooksForEveryCategory>
+            <Fantasy>4</Fantasy>
+            <Historical_Fiction>2</Historical_Fiction>
+            <Comic_Book>2</Comic_Book>
+            <Detective>2</Detective>
+            <Drama>3</Drama>
+            <Biography>2</Biography>
+            <Cookbooks>2</Cookbooks>
+            <History>2</History>
+            <Poetry>2</Poetry>
+        </numberOfBooksForEveryCategory>
+    </report>
+</task7>
