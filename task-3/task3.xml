@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task3 SYSTEM "myDtdFile.dtd">
 <task3>
     <authorInfo>
         <authorName>Piotr Strachota</authorName>

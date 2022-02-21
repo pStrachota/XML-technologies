@@ -1,0 +1,34 @@
+<!ELEMENT task3 (authorInfo, libraryDepartments, bookWriters,
+        publishers, bookCatalog)>
+<!ELEMENT authorInfo (authorName, index)>
+<!ELEMENT authorName (#PCDATA)>
+<!ELEMENT index (#PCDATA)>
+<!ELEMENT libraryDepartments (libraryDepartment+)>
+<!ELEMENT libraryDepartment (#PCDATA)>
+<!ATTLIST libraryDepartment lDepID ID #REQUIRED>
+<!ELEMENT bookWriters (bookWriter+)>
+<!ELEMENT bookWriter (bookWriterNameAndSurname+ | bookWriterPseudonymNameAndSurname+)>
+<!ELEMENT bookWriterNameAndSurname (#PCDATA)>
+<!ELEMENT bookWriterPseudonymNameAndSurname (#PCDATA)>
+<!ATTLIST bookWriter ID ID #REQUIRED>
+<!ELEMENT publishers (publisher+)>
+<!ELEMENT publisher (publisherName, publisherPhoneNumber+)>
+<!ATTLIST publisher ID ID #REQUIRED discount CDATA #IMPLIED>
+<!ELEMENT publisherName (#PCDATA)>
+<!ELEMENT publisherPhoneNumber (#PCDATA)>
+<!ELEMENT bookCatalog (book+)>
+<!ELEMENT book (author*, bookseller, bookTitle,
+        bookValue, coverType, bookReleaseDate, readersRating, bookGenre)>
+<!ATTLIST book ID ID #REQUIRED>
+<!ATTLIST book lDepID IDREF #REQUIRED>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT bookseller (#PCDATA)>
+<!ELEMENT bookTitle (#PCDATA)>
+<!ELEMENT bookValue (#PCDATA)>
+<!ELEMENT coverType EMPTY>
+<!ATTLIST coverType cover (soft | hard)>
+<!ELEMENT bookReleaseDate (#PCDATA)>
+<!ELEMENT bookGenre (#PCDATA)>
+<!ELEMENT readersRating (#PCDATA)>
+
+
