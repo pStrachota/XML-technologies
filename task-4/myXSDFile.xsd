@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="xml-zad4"
+            xmlns:xd="xml-zad4"
+            elementFormDefault="qualified">
+
+
+    <xsd:element name="task4" type="xd:task4Type"/>
+
+    <xsd:complexType name="task4Type">
+        <xsd:sequence>
+            <xsd:element name="authorInfo" type="xd:authorInfoType" maxOccurs="unbounded"/>
+            <xsd:element name="libraryDepartments" type="xd:libraryDepartmentsType"/>
+            <xsd:element name="bookWriters" type="xd:bookWritersType"/>
+            <xsd:element name="publishers" type="xd:publishersType"/>
+            <xsd:element name="bookCatalog" type="xd:bookCatalogType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="authorInfoType">
+        <xsd:sequence>
+            <xsd:element name="authorName" type="xd:authorType"/>
+            <xsd:element name="index" type="xd:indexType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:simpleType name="indexType">
+        <xsd:restriction base="xsd:integer">
+            <xsd:totalDigits value="6"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:complexType name="bookCatalogType">
+        <xsd:group ref="xd:bookCatalogGroup"/>
+    </xsd:complexType>
+
+    <xsd:simpleType name="authorType">
+        <xsd:restriction base="xsd:string">
+            <xsd:minLength value="4"/>
+            <xsd:maxLength value="55"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="booksellerType">
+        <xsd:restriction base="xsd:string">
+            <xsd:minLength value="4"/>
+            <xsd:maxLength value="35"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="bookTitleType">
+        <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="45"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="releaseDateType">
+        <xsd:restriction base="xsd:gYear">
+            <xsd:minInclusive value="1000"/>
+            <xsd:maxInclusive value="2021"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="readersRatingType">
+        <xsd:restriction base="xsd:integer">
+            <xsd:minInclusive value="0"/>
+            <xsd:maxInclusive value="100"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="bookValueType">
+        <xsd:restriction base="xsd:decimal">
+            <xsd:minInclusive value="2"/>
+            <xsd:maxInclusive value="500"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:complexType name="coverTypee">
+        <xsd:attribute name="cover" type="xd:specificCoverType"/>
+    </xsd:complexType>
+
+    <xsd:simpleType name="specificCoverType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="hard"/>
+            <xsd:enumeration value="soft"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+
+    <xsd:group name="bookCatalogGroup">
+        <xsd:sequence>
+            <xsd:element name="book" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="author" type="xd:authorType" minOccurs="0" maxOccurs="10"/>
+                        <xsd:element name="bookseller" type="xd:booksellerType"/>
+                        <xsd:element name="bookTitle" type="xd:bookTitleType"/>
+                        <xsd:element name="bookValue" type="xd:bookValueType"/>
+                        <xsd:element name="coverType" type="xd:coverTypee"/>
+                        <xsd:element name="bookReleaseDate" type="xd:releaseDateType"/>
+                        <xsd:element name="readersRating" type="xd:readersRatingType"/>
+                        <xsd:element name="bookGenre" type="xd:libraryDepartmentEnum"/>
+                    </xsd:sequence>
+                    <xsd:attributeGroup ref="xd:bookCatalogAttributeGroup"/>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:group>
+
+    <xsd:simpleType name="phoneNumberType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="\d{3}-\d{3}-\d{3}"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="phoneNumberType2">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="\(\d{3}\) \d{3}-\d{4}"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="twoPhoneNumberFormats">
+        <xsd:union memberTypes="xd:phoneNumberType xd:phoneNumberType2"/>
+    </xsd:simpleType>
+
+    <xsd:complexType name="publishersType">
+        <xsd:sequence>
+            <xsd:element name="publisher" type="xd:extendedPublisherType" maxOccurs="unbounded" minOccurs="0">
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="publisherType">
+        <xsd:sequence>
+            <xsd:element name="publisherName" type="xd:booksellerType"/>
+            <xsd:element name="publisherPhoneNumber" type="xd:twoPhoneNumberFormats"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="extendedPublisherType">
+        <xsd:complexContent>
+            <xsd:extension base="xd:publisherType">
+                <xsd:attributeGroup ref="xd:publishersAttributeGroup"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:attributeGroup name="publishersAttributeGroup">
+        <xsd:attribute name="ID" type="xsd:string" use="required"/>
+        <xsd:attribute name="discount" type="xsd:integer"/>
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="bookCatalogAttributeGroup">
+        <xsd:attribute name="ID" type="xsd:string" use="required"/>
+        <xsd:attribute name="lDepID" type="xsd:string" use="required"/>
+    </xsd:attributeGroup>
+
+    <xsd:complexType name="bookWritersType">
+        <xsd:sequence>
+            <xsd:element name="bookWriter" maxOccurs="unbounded" minOccurs="0">
+                <xsd:complexType>
+                    <xsd:choice>
+                        <xsd:element name="bookWriterNameAndSurname" type="xd:authorType"/>
+                        <xsd:element name="bookWriterPseudonymNameAndSurname" type="xd:authorType"/>
+                    </xsd:choice>
+                    <xsd:attribute name="ID" type="xsd:string" use="required"/>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+    <xsd:simpleType name="libraryDepartmentEnum">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="Fantasy"/>
+            <xsd:enumeration value="Historical Fiction"/>
+            <xsd:enumeration value="Comic Books"/>
+            <xsd:enumeration value="Detective"/>
+            <xsd:enumeration value="Drama"/>
+            <xsd:enumeration value="Biography"/>
+            <xsd:enumeration value="Cookbooks"/>
+            <xsd:enumeration value="History"/>
+            <xsd:enumeration value="Poetry"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+
+    <xsd:complexType name="libraryDepartmentType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute name="lDepID" type="xsd:string" use="required"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="libraryDepartmentsType">
+        <xsd:sequence>
+            <xsd:element name="libraryDepartment" maxOccurs="unbounded" minOccurs="0" type="xd:libraryDepartmentType">
+                <xsd:key name="lDepIDkey">
+                    <xsd:selector xpath="libraryDepartments/libraryDepartment"/>
+                    <xsd:field xpath="@lDepID"/>
+                </xsd:key>
+                <xsd:keyref name="refTolDepID" refer="xd:lDepIDkey">
+                    <xsd:selector xpath="bookCatalog/book"/>
+                    <xsd:field xpath="@lDepID"/>
+                </xsd:keyref>
+                <xsd:key name="authorIDKey">
+                    <xsd:selector xpath="bookWriters/bookWriter"/>
+                    <xsd:field xpath="@ID"/>
+                </xsd:key>
+                <xsd:keyref name="authorIDKeyRef" refer="xd:authorIDKey">
+                    <xsd:selector xpath="bookCatalog/book"/>
+                    <xsd:field xpath="author"/>
+                </xsd:keyref>
+                <xsd:key name="publisherIDKey">
+                    <xsd:selector xpath="publishers/publisher"/>
+                    <xsd:field xpath="@ID"/>
+                </xsd:key>
+                <xsd:keyref name="publisherIDKeyRef" refer="xd:publisherIDKey">
+                    <xsd:selector xpath="bookCatalog/book"/>
+                    <xsd:field xpath="bookseller"/>
+                </xsd:keyref>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+
+</xsd:schema>
