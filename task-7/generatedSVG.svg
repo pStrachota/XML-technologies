@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1700px"
+     height="2500px"
+     style="font-family:Cambria; background-color:lightcyan;">
+    <script type="text/javascript">
+        function link_click(evt) {
+        var a = evt.target;
+        a.setAttribute("style","fill:black; font-size:24;")
+        }
+
+        function link_hover(evt) {
+        var a = evt.target;
+        a.setAttribute("style","font-style:italic; font-size:26; text-decoration:underline")
+        }
+
+        function link_out(evt) {
+        var a = evt.target;
+        a.setAttribute("style","font-style:normal; font-size:26; text-decoration:underline")
+        }
+
+        function on_authors_hover(evt) {
+        var a = evt.target;
+        a.setAttribute("style","font-stretch: expanded; font-size:21")
+        }
+
+        function on_authors_out(evt) {
+        var a = evt.target;
+        a.setAttribute("style","font-stretch: expanded; font-size:20")
+        }
+
+        function show(name) {
+        document.getElementById(name).style.visibility = "visible";
+        }
+
+        function hide(name) {
+        document.getElementById(name).style.visibility = "hidden";
+        }
+
+        function line_click(evt) {
+        var a = evt.target;
+        a.setAttribute("stroke-width", 20);
+        a.setAttribute("stroke", "pink");
+        }
+
+        function line_hover(evt) {
+        var a = evt.target;
+        a.setAttribute("stroke-width", 20);
+        a.setAttribute("stroke", "yellow");
+        }
+
+        function line_over(evt) {
+        var a = evt.target;
+        a.setAttribute("stroke-width", 10);
+        a.setAttribute("stroke", "black");
+        }
+
+        function line2_hover(evt) {
+        var a = evt.target;
+        a.setAttribute("stroke-width", 20);
+        a.setAttribute("stroke", "pink");
+        }
+    </script>
+    <text x="60" y="50" font-size="26px" fill="black">Wybierz dział biblioteki:</text>
+    <a xlink:href="#Fantasy">
+        <text onmouseout="link_out(evt)"
+              onclick="link_click(evt)"
+              onmouseover="link_hover(evt)"
+              x="370"
+              y="35"
+              style="fill:black; font-size:24; text-decoration:underline;">Fantasy
+        </text>
+    </a>
+    <a id="Fantasy">
+        <text x="350"
+              y="110"
+              style="fill:black; font-size:30; font-family:Arial Black;">Fantasy</text>
+    </a>
+    <text x="1000"
+          y="100"
+          style="fill:black; font-size:30; font-family:Arial Black;">Ocena czytelników
+    </text>
+    <image id="imageId2"
+           width="200"
+           height="200"
+           x="800"
+           y="100"
+           href="https://www.granice.pl/sys6/pliki/okladka_k/c3fa674282051c717e0be268663bd45b.jpeg"
+           visibility="hidden"/>
+    <a href="https://pl.wikipedia.org/wiki/Markus_Zusak" target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="150"
+              style="fill:black;  font-size:20">Markus Zusak</text>
+    </a>
+    <text onmouseover="show('imageId2')"
+          onmouseout="hide('imageId2')"
+          x="450"
+          y="150"
+          style="fill:black; font-size:20px; font-style:italic">The book thief</text>
+    <text x="1250" y="150" style="fill:black;  font-size:18">88</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="144"
+          x2="1000"
+          y2="144"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1220"/>
+    </line>
+    <image id="imageId4"
+           width="200"
+           height="200"
+           x="800"
+           y="100"
+           href="https://images-na.ssl-images-amazon.com/images/I/91hPXkwnaeL.jpg"
+           visibility="hidden"/>
+    <a href="https://pl.wikipedia.org/wiki/George_R.R._Martin" target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="190"
+              style="fill:black;  font-size:20">George Raymond Richard Martin</text>
+    </a>
+    <text onmouseover="show('imageId4')"
+          onmouseout="hide('imageId4')"
+          x="450"
+          y="190"
+          fill="black"
+          font-size="20px"
+          font-style="italic">A Game of Thrones</text>
+    <text x="1250" y="190" style="fill:black;  font-size:18">86</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="184"
+          x2="1000"
+          y2="184"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1215"/>
+    </line>
+    <image id="imageId3"
+           width="200"
+           height="200"
+           x="800"
+           y="100"
+           href="https://images-na.ssl-images-amazon.com/images/I/919-2hQNB6L.jpg"
+           visibility="hidden"/>
+    <a href="https://pl.wikipedia.org/wiki/J.R.R._Tolkien" target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="230"
+              style="fill:black;  font-size:20">John Ronald Reuel Tolkien</text>
+    </a>
+    <text onmouseover="show('imageId3')"
+          onmouseout="hide('imageId3')"
+          x="450"
+          y="230"
+          style="fill:black; font-size:20px; font-style:italic">The Lord of the Rings. The two towers</text>
+    <text x="1250" y="230" style="fill:black;  font-size:18">84</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="224"
+          x2="1000"
+          y2="224"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1210"/>
+    </line>
+    <image id="imageId"
+           width="200"
+           height="200"
+           x="800"
+           y="100"
+           href="https://image.ceneostatic.pl/data/products/34672883/i-harry-potter-and-the-philosopher-s-stone.jpg"
+           visibility="hidden"/>
+    <a href="https://pl.wikipedia.org/wiki/J.K._Rowling" target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="270"
+              style="fill:black;  font-size:20">Joanne Kathleen Rowling</text>
+    </a>
+    <text onmouseover="show('imageId')"
+          onmouseout="hide('imageId')"
+          x="450"
+          y="270"
+          style="fill:black; font-size:20px; font-style:italic">Harry Potter and the philosopher's stone</text>
+    <text x="1250" y="270" style="fill:black;  font-size:18">73</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="264"
+          x2="1000"
+          y2="264"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1182.5"/>
+    </line>
+    <a xlink:href="#Historical_Fiction">
+        <text onmouseout="link_out(evt)"
+              onclick="link_click(evt)"
+              onmouseover="link_hover(evt)"
+              x="500"
+              y="35"
+              style="fill:black; font-size:24; text-decoration:underline;">Fikcja historyczna
+        </text>
+    </a>
+    <a id="Historical_Fiction">
+        <text x="270"
+              y="350"
+              style="fill:black; font-size:30; font-family:Arial Black;">Fikcja
+            historyczna
+        </text>
+    </a>
+    <image id="imageId5"
+           width="200"
+           height="200"
+           x="700"
+           y="300"
+           href="https://www.swiatksiazki.pl/media/catalog/product/cache/eaf55611dc9c3a2fa4224fad2468d647/x/6/x699906728306.jpg"
+           visibility="hidden"/>
+    <a href="https://pl.wikipedia.org/wiki/George_Orwell" target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="400"
+              style="fill:black;  font-size:20">George Orwell</text>
+    </a>
+    <text onmouseover="show('imageId5')"
+          onmouseout="hide('imageId5')"
+          x="450"
+          y="400"
+          style="fill:black; font-size:20px; font-style:italic">Nineteen Eighty-Four</text>
+    <text x="1250" y="400" style="fill:black;  font-size:18">82</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="394"
+          x2="1000"
+          y2="394"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1205"/>
+    </line>
+    <image id="imageId6"
+           width="200"
+           height="200"
+           x="700"
+           y="300"
+           href="https://a.allegroimg.com/s1024/0c86b8/3de10c064facb330fffe9f598b50"
+           visibility="hidden"/>
+    <a href="https://pl.wikipedia.org/wiki/Alexandre_Dumas" target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="440"
+              style="fill:black;  font-size:20">Alexander Dumas</text>
+    </a>
+    <text onmouseover="show('imageId6')"
+          onmouseout="hide('imageId6')"
+          x="450"
+          y="440"
+          style="fill:black; font-size:20px; font-style:italic">The Three Musketeers</text>
+    <text x="1250" y="440" style="fill:black;  font-size:18">70</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="434"
+          x2="1000"
+          y2="434"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1175"/>
+    </line>
+    <a xlink:href="#Comic_Book">
+        <text onmouseout="link_out(evt)"
+              onclick="link_click(evt)"
+              onmouseover="link_hover(evt)"
+              x="750"
+              y="35"
+              style="fill:black; font-size:24; text-decoration:underline;">Komiksy
+        </text>
+    </a>
+    <a id="Comic_Book">
+        <text x="300"
+              y="520"
+              style="fill:black; font-size:30; font-family:Arial Black;">Komiksy
+        </text>
+    </a>
+    <image id="imageId8"
+           width="200"
+           height="200"
+           x="600"
+           y="470"
+           href="https://image.ceneostatic.pl/data/products/69850966/i-superman-action-comics-tom-4-nowy-swiat.jpg"
+           visibility="hidden"/>
+    <a href="https://pl.wikipedia.org/wiki/Jerry_Siegel" target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="570"
+              style="fill:black;  font-size:20">Jerry Siegel</text>
+    </a>
+    <text onmouseover="show('imageId8')"
+          onmouseout="hide('imageId8')"
+          x="450"
+          y="570"
+          fill="black"
+          font-size="20px"
+          font-style="italic">Superman</text>
+    <text x="1250" y="570" style="fill:black;  font-size:18">91</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="564"
+          x2="1000"
+          y2="564"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1227.5"/>
+    </line>
+    <image id="imageId7"
+           width="200"
+           height="200"
+           x="600"
+           y="470"
+           href="https://www.freecomicbookday.com/SiteImage/MainImage/STL148494"
+           visibility="hidden"/>
+    <a href="https://pl.wikipedia.org/wiki/Ren%C3%A9_Goscinny" target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="610"
+              style="fill:black;  font-size:20">Rene Goscinny</text>
+    </a>
+    <text onmouseover="show('imageId7')"
+          onmouseout="hide('imageId7')"
+          x="450"
+          y="610"
+          style="fill:black; font-size:20px; font-style:italic">Asterix</text>
+    <text x="1250" y="610" style="fill:black;  font-size:18">76</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="604"
+          x2="1000"
+          y2="604"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1190"/>
+    </line>
+    <a xlink:href="#Detective">
+        <text onmouseout="link_out(evt)"
+              onclick="link_click(evt)"
+              onmouseover="link_hover(evt)"
+              x="900"
+              y="35"
+              style="fill:black; font-size:24; text-decoration:underline;">Detektywistyczne
+        </text>
+    </a>
+    <a id="Detective">
+        <text x="240"
+              y="670"
+              style="fill:black; font-size:30; font-family:Arial Black;">Detektywistyczne
+        </text>
+    </a>
+    <image id="imageId9"
+           width="200"
+           height="200"
+           x="740"
+           y="625"
+           href="https://ecsmedia.pl/c/przygody-sherlocka-holmesa-w-iext99676811.jpg"
+           visibility="hidden"/>
+    <a href="https://pl.wikipedia.org/wiki/Arthur_Conan_Doyle" target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="720"
+              style="fill:black;  font-size:20">Arthur Conan Doyle</text>
+    </a>
+    <text onmouseover="show('imageId9')"
+          onmouseout="hide('imageId9')"
+          x="450"
+          y="720"
+          fill="black"
+          font-size="20px"
+          font-style="italic">The Adventures of Sherlock Holmes</text>
+    <text x="1250" y="720" style="fill:black;  font-size:18">87</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="714"
+          x2="1000"
+          y2="714"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1217.5"/>
+    </line>
+    <image id="imageId10"
+           width="200"
+           height="200"
+           x="740"
+           y="625"
+           href="https://ecsmedia.pl/c/morderstwo-w-orient-expressie-b-iext97137398.jpg"
+           visibility="hidden"/>
+    <a href="https://pl.wikipedia.org/wiki/Agatha_Christie" target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="760"
+              style="fill:black;  font-size:20">Agatha Christie</text>
+    </a>
+    <text onmouseover="show('imageId10')"
+          onmouseout="hide('imageId10')"
+          x="450"
+          y="760"
+          style="fill:black; font-size:20px; font-style:italic">Murder on the Orient Express</text>
+    <text x="1250" y="760" style="fill:black;  font-size:18">68</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="754"
+          x2="1000"
+          y2="754"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1170"/>
+    </line>
+    <a xlink:href="#Drama">
+        <text onmouseout="link_out(evt)"
+              onclick="link_click(evt)"
+              onmouseover="link_hover(evt)"
+              x="1150"
+              y="35"
+              style="fill:black; font-size:24; text-decoration:underline;">Dramaty
+        </text>
+    </a>
+    <a id="Drama">
+        <text x="300"
+              y="840"
+              style="fill:black; font-size:30; font-family:Arial Black;">Dramaty
+        </text>
+    </a>
+    <image id="imageId12"
+           width="200"
+           height="200"
+           x="640"
+           y="820"
+           href="https://ecsmedia.pl/c/male-kobietki-wersja-ilustrowana-b-iext81301175.jpg"
+           visibility="hidden"/>
+    <a href="https://pl.wikipedia.org/wiki/Louisa_May_Alcott" target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="890"
+              style="fill:black;  font-size:20">Louisa May Alcott</text>
+    </a>
+    <text onmouseover="show('imageId12')"
+          onmouseout="hide('imageId12')"
+          x="450"
+          y="890"
+          style="fill:black; font-size:20px; font-style:italic">Little Women</text>
+    <text x="1250" y="890" style="fill:black;  font-size:18">82</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="884"
+          x2="1000"
+          y2="884"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1205"/>
+    </line>
+    <image id="imageId11"
+           width="200"
+           height="200"
+           x="640"
+           y="820"
+           href="https://ecsmedia.pl/c/romeo-i-julia-w-iext97331996.jpg"
+           visibility="hidden"/>
+    <a href="https://pl.wikipedia.org/wiki/William_Shakespeare"
+       target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="930"
+              style="fill:black;  font-size:20">William Shakespeare</text>
+    </a>
+    <text onmouseover="show('imageId11')"
+          onmouseout="hide('imageId11')"
+          x="450"
+          y="930"
+          style="fill:black; font-size:20px; font-style:italic">Romeo and Juliet</text>
+    <text x="1250" y="930" style="fill:black;  font-size:18">77</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="924"
+          x2="1000"
+          y2="924"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1192.5"/>
+    </line>
+    <image id="imageId13"
+           width="200"
+           height="200"
+           x="640"
+           y="820"
+           href="https://s.lubimyczytac.pl/upload/books/152000/152298/783829-352x500.jpg"
+           visibility="hidden"/>
+    <a href="https://pl.wikipedia.org/wiki/Lew_Tołstoj" target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="970"
+              style="fill:black;  font-size:20">Leo Tolstoy</text>
+    </a>
+    <text onmouseover="show('imageId13')"
+          onmouseout="hide('imageId13')"
+          x="450"
+          y="970"
+          style="fill:black; font-size:20px; font-style:italic">Anna Karenina</text>
+    <text x="1250" y="970" style="fill:black;  font-size:18">65</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="964"
+          x2="1000"
+          y2="964"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1162.5"/>
+    </line>
+    <a xlink:href="#Biography">
+        <text onmouseout="link_out(evt)"
+              onclick="link_click(evt)"
+              onmouseover="link_hover(evt)"
+              x="1300"
+              y="35"
+              style="fill:black; font-size:24; text-decoration:underline;">Biografie
+        </text>
+    </a>
+    <a id="Biography">
+        <text x="280"
+              y="1050"
+              style="fill:black; font-size:30; font-family:Arial Black;">Biografie
+        </text>
+    </a>
+    <image id="imageId15"
+           width="200"
+           height="200"
+           x="740"
+           y="1000"
+           href="https://ecsmedia.pl/c/leonardo-da-vinci-b-iext97205306.jpg"
+           visibility="hidden"/>
+    <a href="https://en.wikipedia.org/wiki/Charles_Nicholl_(author)"
+       target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="1100"
+              style="fill:black;  font-size:20">Charles Nicholl</text>
+    </a>
+    <text onmouseover="show('imageId15')"
+          onmouseout="hide('imageId15')"
+          x="450"
+          y="1100"
+          style="fill:black; font-size:20px; font-style:italic">Leonardo da Vinci</text>
+    <text x="1250" y="1100" style="fill:black;  font-size:18">90</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="1094"
+          x2="1000"
+          y2="1094"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1225"/>
+    </line>
+    <image id="imageId14"
+           width="200"
+           height="200"
+           x="740"
+           y="1000"
+           href="https://ecsmedia.pl/c/steve-jobs-b-iext90647304.jpg"
+           visibility="hidden"/>
+    <a href="https://pl.wikipedia.org/wiki/Walter_Isaacson" target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="1140"
+              style="fill:black;  font-size:20">Walter Isaacson</text>
+    </a>
+    <text onmouseover="show('imageId14')"
+          onmouseout="hide('imageId14')"
+          x="450"
+          y="1140"
+          style="fill:black; font-size:20px; font-style:italic">Steve Jobs: The Exclusive Biography</text>
+    <text x="1250" y="1140" style="fill:black;  font-size:18">87</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="1134"
+          x2="1000"
+          y2="1134"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1217.5"/>
+    </line>
+    <a xlink:href="#Cookbooks">
+        <text onmouseout="link_out(evt)"
+              onclick="link_click(evt)"
+              onmouseover="link_hover(evt)"
+              x="370"
+              y="65"
+              style="fill:black; font-size:24; text-decoration:underline;">Książki kucharskie
+        </text>
+    </a>
+    <a id="Cookbooks">
+        <text x="200"
+              y="1250"
+              style="fill:black; font-size:30; font-family:Arial Black;">Książki
+            kucharskie
+        </text>
+    </a>
+    <image id="imageId16"
+           width="200"
+           height="200"
+           x="700"
+           y="1200"
+           href="https://www.swiatksiazki.pl/media/catalog/product/cache/eaf55611dc9c3a2fa4224fad2468d647/3/6/3699906611336.jpg"
+           visibility="hidden"/>
+    <a href="https://en.wikipedia.org/wiki/Marion_Rombauer_Becker"
+       target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="1300"
+              style="fill:black;  font-size:20">Marion Rombauer Becker</text>
+    </a>
+    <text onmouseover="show('imageId16')"
+          onmouseout="hide('imageId16')"
+          x="450"
+          y="1300"
+          style="fill:black; font-size:20px; font-style:italic">The joy of cooking</text>
+    <text x="1250" y="1300" style="fill:black;  font-size:18">79</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="1294"
+          x2="1000"
+          y2="1294"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1197.5"/>
+    </line>
+    <text x="1250" y="1340" style="fill:black;  font-size:18">76</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="1334"
+          x2="1000"
+          y2="1334"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1190"/>
+    </line>
+    <a xlink:href="#History">
+        <text onmouseout="link_out(evt)"
+              onclick="link_click(evt)"
+              onmouseover="link_hover(evt)"
+              x="620"
+              y="65"
+              style="fill:black; font-size:24; text-decoration:underline;">Książki historyczne
+        </text>
+    </a>
+    <a id="History">
+        <text x="200"
+              y="1400"
+              style="fill:black; font-size:30; font-family:Arial Black;">Książki
+            historyczne
+        </text>
+    </a>
+    <image id="imageId17"
+           width="200"
+           height="200"
+           x="650"
+           y="1350"
+           href="https://images-na.ssl-images-amazon.com/images/I/81ijRAC+c3L.jpg"
+           visibility="hidden"/>
+    <a href="https://pl.wikipedia.org/wiki/Barbara_Tuchman" target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="1450"
+              style="fill:black;  font-size:20">Barbara Tuchman</text>
+    </a>
+    <text onmouseover="show('imageId17')"
+          onmouseout="hide('imageId17')"
+          x="450"
+          y="1450"
+          style="fill:black; font-size:20px; font-style:italic">The Guns of August</text>
+    <text x="1250" y="1450" style="fill:black;  font-size:18">90</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="1444"
+          x2="1000"
+          y2="1444"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1225"/>
+    </line>
+    <image id="imageId18"
+           width="200"
+           height="200"
+           x="650"
+           y="1350"
+           href="https://d28hgpri8am2if.cloudfront.net/book_images/cvr9780743223133_9780743223133_hr.jpg"
+           visibility="hidden"/>
+    <a href="https://pl.wikipedia.org/wiki/David_McCullogh" target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="1490"
+              style="fill:black;  font-size:20">David McCullogh</text>
+    </a>
+    <text onmouseover="show('imageId18')"
+          onmouseout="hide('imageId18')"
+          x="450"
+          y="1490"
+          style="fill:black; font-size:20px; font-style:italic">John Adams</text>
+    <text x="1250" y="1490" style="fill:black;  font-size:18">67</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="1484"
+          x2="1000"
+          y2="1484"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1167.5"/>
+    </line>
+    <a xlink:href="#Poetry">
+        <text onmouseout="link_out(evt)"
+              onclick="link_click(evt)"
+              onmouseover="link_hover(evt)"
+              x="870"
+              y="65"
+              style="fill:black; font-size:24; text-decoration:underline;">Poezja
+        </text>
+    </a>
+    <a id="Poetry">
+        <text x="250"
+              y="1550"
+              style="fill:black; font-size:30; font-family:Arial Black;">Poezja
+        </text>
+    </a>
+    <image id="imageId20"
+           width="200"
+           height="200"
+           x="650"
+           y="1520"
+           href="https://images-na.ssl-images-amazon.com/images/I/71ZUAQQ-9IL.jpg"
+           visibility="hidden"/>
+    <a href="https://pl.wikipedia.org/wiki/Walt_Whitman" target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="1600"
+              style="fill:black;  font-size:20">Walt Whitman</text>
+    </a>
+    <text onmouseover="show('imageId20')"
+          onmouseout="hide('imageId20')"
+          x="450"
+          y="1600"
+          style="fill:black; font-size:20px; font-style:italic">Leaves of Grass</text>
+    <text x="1250" y="1600" style="fill:black;  font-size:18">80</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="1594"
+          x2="1000"
+          y2="1594"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1200"/>
+    </line>
+    <image id="imageId19"
+           width="200"
+           height="200"
+           x="650"
+           y="1520"
+           href="https://ecsmedia.pl/c/ballady-i-romanse-b-iext102863078.jpg"
+           visibility="hidden"/>
+    <a href="https://pl.wikipedia.org/wiki/Adam_Mickiewicz" target="_blank">
+        <text onmouseover="on_authors_hover(evt)"
+              onmouseout="on_authors_out(evt)"
+              x="80"
+              y="1640"
+              style="fill:black;  font-size:20">Adam Mickiewicz</text>
+    </a>
+    <text onmouseover="show('imageId19')"
+          onmouseout="hide('imageId19')"
+          x="450"
+          y="1640"
+          style="fill:black; font-size:20px; font-style:italic">Ballads and romances</text>
+    <text x="1250" y="1640" style="fill:black;  font-size:18">69</text>
+    <line onmouseover="line_hover(evt)"
+          onmouseout="line_over(evt)"
+          x1="1000"
+          y1="1634"
+          x2="1000"
+          y2="1634"
+          stroke-width="10"
+          stroke="black">
+        <animate attributeName="x2"
+                 attributeType="XML"
+                 begin="0s"
+                 dur="2s"
+                 fill="freeze"
+                 from="1000"
+                 to="1172.5"/>
+    </line>
+    <text x="500"
+          y="1750"
+          style="fill:black; font-size:30; font-family:Arial Black;">Wartość książki w PLN
+    </text>
+    <text x="97" y="1828.02" style="fill:black; font-size:18">55.99</text>
+    <line onclick="line_click(evt)"
+          x1="120"
+          y1="1980"
+          x2="120"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1838.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="115"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">A Game of Thrones</text>
+    <text x="172" y="1848.02" style="fill:black; font-size:18">45.99</text>
+    <line onclick="line_click(evt)"
+          x1="195"
+          y1="1980"
+          x2="195"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1858.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="190"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">The Guns of August</text>
+    <text x="247" y="1854.02" style="fill:black; font-size:18">42.99</text>
+    <line onclick="line_click(evt)"
+          x1="270"
+          y1="1980"
+          x2="270"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1864.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="265"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">The book thief</text>
+    <text x="322" y="1856.02" style="fill:black; font-size:18">41.99</text>
+    <line onclick="line_click(evt)"
+          x1="345"
+          y1="1980"
+          x2="345"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1866.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="340"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">Leonardo da Vinci</text>
+    <text x="397" y="1874.02" style="fill:black; font-size:18">32.99</text>
+    <line onclick="line_click(evt)"
+          x1="420"
+          y1="1980"
+          x2="420"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1884.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="415"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">The Lord of the Rings. The two towers</text>
+    <text x="472" y="1880.02" style="fill:black; font-size:18">29.99</text>
+    <line onclick="line_click(evt)"
+          x1="495"
+          y1="1980"
+          x2="495"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1890.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="490"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">The Adventures of Sherlock Holmes</text>
+    <text x="547" y="1880.02" style="fill:black; font-size:18">29.99</text>
+    <line onclick="line_click(evt)"
+          x1="570"
+          y1="1980"
+          x2="570"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1890.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="565"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">Steve Jobs: The Exclusive Biography</text>
+    <text x="622" y="1888.02" style="fill:black; font-size:18">25.99</text>
+    <line onclick="line_click(evt)"
+          x1="645"
+          y1="1980"
+          x2="645"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1898.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="640"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">Little Women</text>
+    <text x="697" y="1892.02" style="fill:black; font-size:18">23.99</text>
+    <line onclick="line_click(evt)"
+          x1="720"
+          y1="1980"
+          x2="720"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1902.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="715"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">The joy of cooking</text>
+    <text x="772" y="1894.02" style="fill:black; font-size:18">22.99</text>
+    <line onclick="line_click(evt)"
+          x1="795"
+          y1="1980"
+          x2="795"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1904.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="790"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">The Three Musketeers</text>
+    <text x="847" y="1902.02" style="fill:black; font-size:18">18.99</text>
+    <line onclick="line_click(evt)"
+          x1="870"
+          y1="1980"
+          x2="870"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1912.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="865"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">Ballads and romances</text>
+    <text x="922" y="1906.02" style="fill:black; font-size:18">16.99</text>
+    <line onclick="line_click(evt)"
+          x1="945"
+          y1="1980"
+          x2="945"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1916.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="940"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">Murder on the Orient Express</text>
+    <text x="997" y="1920.02" style="fill:black; font-size:18">9.99</text>
+    <line onclick="line_click(evt)"
+          x1="1020"
+          y1="1980"
+          x2="1020"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1930.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="1015"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">Romeo and Juliet</text>
+    <text x="1072" y="1920.02" style="fill:black; font-size:18">9.99</text>
+    <line onclick="line_click(evt)"
+          x1="1095"
+          y1="1980"
+          x2="1095"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1930.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="1090"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">Asterix</text>
+    <text x="1147" y="1922.02" style="fill:black; font-size:18">8.99</text>
+    <line onclick="line_click(evt)"
+          x1="1170"
+          y1="1980"
+          x2="1170"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1932.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="1165"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">Harry Potter and the philosopher's stone</text>
+    <text x="1222" y="1922.02" style="fill:black; font-size:18">8.99</text>
+    <line onclick="line_click(evt)"
+          x1="1245"
+          y1="1980"
+          x2="1245"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1932.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="1240"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">Anna Karenina</text>
+    <text x="1297" y="1924.02" style="fill:black; font-size:18">7.99</text>
+    <line onclick="line_click(evt)"
+          x1="1320"
+          y1="1980"
+          x2="1320"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1934.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="1315"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">John Adams</text>
+    <text x="1372" y="1926.02" style="fill:black; font-size:18">6.99</text>
+    <line onclick="line_click(evt)"
+          x1="1395"
+          y1="1980"
+          x2="1395"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1936.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="1390"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">Superman</text>
+    <text x="1447" y="1928.02" style="fill:black; font-size:18">5.99</text>
+    <line onclick="line_click(evt)"
+          x1="1470"
+          y1="1980"
+          x2="1470"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1938.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="1465"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">Nineteen Eighty-Four</text>
+    <text x="1522" y="1928.02" style="fill:black; font-size:18">5.99</text>
+    <line onclick="line_click(evt)"
+          x1="1545"
+          y1="1980"
+          x2="1545"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1938.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="1540"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">Leaves of Grass</text>
+    <text x="1597" y="1932.02" style="fill:black; font-size:18">3.99</text>
+    <line onclick="line_click(evt)"
+          x1="1620"
+          y1="1980"
+          x2="1620"
+          y2="1980"
+          fill="black"
+          stroke="black"
+          stroke-width="20">
+        <animate attributeType="XML"
+                 attributeName="y2"
+                 from="2000"
+                 to="1942.02"
+                 dur="2s"
+                 fill="freeze"/>
+    </line>
+    <text writing-mode="tb"
+          x="1615"
+          y="2000"
+          style="fill:black; font-size:20px; font-style:italic">Mastering the Art of French Cooking</text>
+</svg>
+ 
