@@ -1,0 +1,234 @@
+task2 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("library.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+authorInfo:before {
+    content: "Strona zawiera listę książek z księgarni. \
+    Książki zostały pogrupowane według działów w których występują: \
+    Fantasy - kolor niebieski, Fikcja historyczna - kolor różowy, \
+    Komiksy - kolor zielony, Detektywistyczne - kolor szary, \
+    Romanse/Dramaty - kolor żółty, Biografie - kolor cyjanowy, \
+    Książki kucharskie - kolor czerwony, Historyczne - kolor brązowy, Poezja - kolor fioletowy";
+}
+
+authorInfo {
+    display: block;
+    box-shadow: 8px 8px 80px 0px rgba(66, 68, 90, 1);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 30px auto;
+    width: 1400px;
+    background: rgba(97, 245, 228, 0.7);
+}
+
+authorInfo:first-child {
+    display: block;
+    font-size: 25px;
+}
+
+authorInfo > author:before{
+	content: "Autor: ";
+    font-weight: bold;
+}
+
+authorInfo > author{
+    display: block;
+    font-size: 25px;
+	font-style: oblique;
+}
+
+bookWriters, publishers, libraryDepartments, lastModificationDate {
+    display: none;
+}
+
+author + index:before {
+    content: "Numer indeksu: ";
+    font-weight: bold;
+
+}
+
+author + index {
+    display: block;
+    font-size: 25px;
+    font-style: oblique;
+}
+
+bookGenre:before {
+    content: "Library Department: ";
+    font-weight: bold;
+}
+
+bookGenre {
+    display: block;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    border: 5px groove #000000;
+}
+
+bookCatalog book {
+    display: block;
+    box-shadow: 0 0 10px 2px #8a8c8c;
+    padding: 20px;
+    margin: 30px auto;
+    width: 1000px;
+    background: rgba(248, 216, 216, 0.7);
+    border: 5px groove #000000;
+}
+
+book:hover[lDepID=LD1] {
+    background: rgba(201, 232, 228, 0.8);
+    font-style: italic;
+}
+
+book:hover[lDepID=LD2] {
+    background: rgba(224, 159, 189, 0.8);
+    font-style: italic;
+}
+
+book:hover[lDepID=LD3] {
+    background: rgba(187, 226, 165, 0.8);
+    font-style: italic;
+}
+
+book:hover[lDepID=LD4] {
+    background: rgba(165, 165, 152, 0.8);
+    font-style: italic;
+}
+
+book:hover[lDepID=LD5] {
+    background: rgba(203, 203, 125, 0.8);
+    font-style: italic;
+}
+
+book:hover[lDepID=LD6] {
+    background: rgba(124, 182, 182, 0.8);
+    font-style: italic;
+}
+
+book:hover[lDepID=LD7] {
+    background: rgba(232, 80, 103, 0.8);
+    font-style: italic;
+}
+
+book:hover[lDepID=LD8] {
+    background: rgba(204, 116, 61, 0.8);
+    font-style: italic;
+}
+
+book:hover[lDepID=LD9] {
+    background: rgba(134, 106, 231, 0.8);
+    font-style: italic;
+}
+
+bookTitle {
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    margin: 10px auto;
+    text-transform: uppercase;
+}
+
+bookTitle::first-line {
+    font-size: 30px;
+    text-shadow: 1px 2px #FFFFFF;
+}
+
+bookReleaseDate:before {
+    content: "Release Date: ";
+    display: inline;
+	font-weight: bold;
+}
+
+bookReleaseDate {
+    font-size: 25px;
+}
+
+
+author:before {
+    content: "Author: ";
+    display: inline;
+	font-weight: bold;
+}
+
+author {
+    font-size: 25px;
+}
+
+bookseller:before {
+    content: "Publisher: ";
+    display: inline;
+	font-weight: bold;
+}
+
+bookseller {
+    font-size: 25px;
+    float: right;
+}
+
+bookValue:before {
+    content: "Book Value: ";
+    font-weight: bold;
+    display: inline;
+}
+
+bookValue:after {
+	content: " PLN";
+	font-weight: normal;
+	display: inline;
+}
+
+bookValue {
+    font-size: 25px;
+}
+
+readersRating:before {
+    content: "Readers rating: ";
+    font-weight: bold;
+    display: inline;
+}
+
+readersRating {
+    font-size: 25px;
+}
+
+coverType[cover="hard"]:before {
+    content: "Cover Type: ";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+coverType[cover="hard"]:after {
+    content: attr(cover);
+    font-size: 25px;
+}
+
+coverType[cover="soft"]:before {
+    content: "Cover Type: ";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+coverType[cover="soft"]:after {
+    content: attr(cover);
+    font-size: 25px;
+}
+
+coverType {
+	font-size: 25px;
+}
+
+
+bookReleaseDate, bookValue, coverType, readersRating {
+    display: list-item;
+    list-style: square;
+    margin: auto;
+    width: 50%;
+}
