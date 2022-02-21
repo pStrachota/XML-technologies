@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task3>
+    <authorInfo>
+        <authorName>Piotr Strachota</authorName>
+        <index>236660</index>
+    </authorInfo>
+
+    <libraryDepartments>
+        <libraryDepartment lDepID="LD1">Fantasy Department</libraryDepartment>
+        <libraryDepartment lDepID="LD2">Historical Fiction Department</libraryDepartment>
+        <libraryDepartment lDepID="LD3">Comic Book Department</libraryDepartment>
+        <libraryDepartment lDepID="LD4">Detective Department</libraryDepartment>
+        <libraryDepartment lDepID="LD5">Drama Department</libraryDepartment>
+        <libraryDepartment lDepID="LD6">Biography Department</libraryDepartment>
+        <libraryDepartment lDepID="LD7">Cookbooks Department</libraryDepartment>
+        <libraryDepartment lDepID="LD8">History Department</libraryDepartment>
+        <libraryDepartment lDepID="LD9">Poetry Department</libraryDepartment>
+    </libraryDepartments>
+
+    <bookWriters>
+
+        <bookWriter ID="A1">
+            <bookWriterNameAndSurname>Arthur Conan Doyle</bookWriterNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A2">
+            <bookWriterPseudonymNameAndSurname>George Orwell</bookWriterPseudonymNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A3">
+            <bookWriterNameAndSurname>William Shakespeare</bookWriterNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A4">
+            <bookWriterNameAndSurname>Walter Isaacson</bookWriterNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A5">
+            <bookWriterNameAndSurname>Charles Nicholl</bookWriterNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A6">
+            <bookWriterNameAndSurname>Joanne Kathleen Rowling</bookWriterNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A7">
+            <bookWriterNameAndSurname>Rene Goscinny</bookWriterNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A8">
+            <bookWriterNameAndSurname>Marion Rombauer Becker</bookWriterNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A9">
+            <bookWriterNameAndSurname>Markus Zusak</bookWriterNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A10">
+            <bookWriterNameAndSurname>David McCullogh</bookWriterNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A11">
+            <bookWriterNameAndSurname>Adam Mickiewicz</bookWriterNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A12">
+            <bookWriterNameAndSurname>John Ronald Reuel Tolkien</bookWriterNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A13">
+            <bookWriterNameAndSurname>Louisa May Alcott</bookWriterNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A14">
+            <bookWriterNameAndSurname>Agatha Christie</bookWriterNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A15">
+            <bookWriterNameAndSurname>Jerry Siegel</bookWriterNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A16">
+            <bookWriterNameAndSurname>George Raymond Richard Martin</bookWriterNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A17">
+            <bookWriterNameAndSurname>Julia Child</bookWriterNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A18">
+            <bookWriterNameAndSurname>Alexander Dumas</bookWriterNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A19">
+            <bookWriterNameAndSurname>Walt Whitman</bookWriterNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A20">
+            <bookWriterNameAndSurname>Barbara Tuchman</bookWriterNameAndSurname>
+        </bookWriter>
+
+        <bookWriter ID="A21">
+            <bookWriterNameAndSurname>Leo Tolstoy</bookWriterNameAndSurname>
+        </bookWriter>
+
+    </bookWriters>
+
+    <publishers>
+        <publisher ID="P1">
+            <publisherName>Dover Publications</publisherName>
+            <publisherPhoneNumber>725-897-999</publisherPhoneNumber>
+        </publisher>
+
+        <publisher ID="P2">
+            <publisherName>Simon and Shuster</publisherName>
+            <publisherPhoneNumber>685-877-929</publisherPhoneNumber>
+        </publisher>
+
+        <publisher ID="P3">
+            <publisherName>Dargaud</publisherName>
+            <publisherPhoneNumber>695-148-397</publisherPhoneNumber>
+        </publisher>
+
+        <publisher ID="P4">
+            <publisherName>Bloomsbury</publisherName>
+            <publisherPhoneNumber>984-577-930</publisherPhoneNumber>
+        </publisher>
+
+        <publisher ID="P5">
+            <publisherName>Bobbs Merrill Company</publisherName>
+            <publisherPhoneNumber>852-786-458</publisherPhoneNumber>
+        </publisher>
+
+        <publisher ID="P6">
+            <publisherName>Picador</publisherName>
+            <publisherPhoneNumber>458-258-958</publisherPhoneNumber>
+        </publisher>
+
+        <publisher ID="P7">
+            <publisherName>Egmont</publisherName>
+            <publisherPhoneNumber>685-854-328</publisherPhoneNumber>
+        </publisher>
+
+        <publisher ID="P8">
+            <publisherName>Allen and Ulwin</publisherName>
+            <publisherPhoneNumber>875-964-123</publisherPhoneNumber>
+        </publisher>
+
+        <publisher ID="P9" discount="10">
+            <publisherName>Roberts Brothers</publisherName>
+            <publisherPhoneNumber>584-785-984</publisherPhoneNumber>
+        </publisher>
+
+        <publisher ID="P10" discount="12">
+            <publisherName>Collins Crime Club</publisherName>
+            <publisherPhoneNumber>547-587-652</publisherPhoneNumber>
+        </publisher>
+
+        <publisher ID="P11">
+            <publisherName>DC Comics</publisherName>
+            <publisherPhoneNumber>(541) 444-9425</publisherPhoneNumber>
+        </publisher>
+
+        <publisher ID="P12" discount="LD8">
+            <publisherName>Voyager Books</publisherName>
+            <publisherPhoneNumber>854-985-124</publisherPhoneNumber>
+        </publisher>
+
+        <publisher ID="P13">
+            <publisherName>Self</publisherName>
+            <publisherPhoneNumber>985-457-658</publisherPhoneNumber>
+        </publisher>
+
+        <publisher ID="P14">
+            <publisherName>Secker and Warburg</publisherName>
+            <publisherPhoneNumber>847-475-249</publisherPhoneNumber>
+        </publisher>
+
+        <publisher ID="P15" discount="13">
+            <publisherName>Bantam Classics Paperback</publisherName>
+            <publisherPhoneNumber>758-457-956</publisherPhoneNumber>
+        </publisher>
+
+    </publishers>
+
+    <bookCatalog>
+        <book ID="ASH1" lDepID="LD4">
+            <author>Arthur Conan Doyle</author>
+            <bookseller>Dover Publications</bookseller>
+            <bookTitle>The Adventures of Sherlock Holmes</bookTitle>
+            <bookValue>29.99</bookValue>
+            <coverType cover="soft"/>
+            <bookReleaseDate>1892</bookReleaseDate>
+            <readersRating>87</readersRating>
+            <bookGenre>Detective</bookGenre>
+        </book>
+
+        <book ID="NEF1" lDepID="LD2">
+            <author>George Orwell</author>
+            <bookseller>Secker and Warburg</bookseller>
+            <bookTitle>Nineteen Eighty-Four</bookTitle>
+            <bookValue>5.99</bookValue>
+            <coverType cover="soft"/>
+            <bookReleaseDate>1949</bookReleaseDate>
+            <readersRating>82</readersRating>
+            <bookGenre>Historical Fiction</bookGenre>
+        </book>
+
+        <book ID="RJ1" lDepID="LD5">
+            <author>William Shakespeare</author>
+            <bookseller>Simon and Shuster</bookseller>
+            <bookTitle>Romeo and Juliet</bookTitle>
+            <bookValue>9.99</bookValue>
+            <coverType cover="soft"/>
+            <bookReleaseDate>1597</bookReleaseDate>
+            <readersRating>77</readersRating>
+            <bookGenre>Drama</bookGenre>
+        </book>
+
+        <book ID="SJTEB1" lDepID="LD6">
+            <author>Walter Isaacson</author>
+            <bookseller>Simon and Shuster</bookseller>
+            <bookTitle>Steve Jobs: The Exclusive Biography</bookTitle>
+            <bookValue>29.99</bookValue>
+            <coverType cover="hard"/>
+            <bookReleaseDate>2011</bookReleaseDate>
+            <readersRating>87</readersRating>
+            <bookGenre>Biography</bookGenre>
+        </book>
+
+        <book ID="HPAPS1" lDepID="LD1">
+            <author>Joanne Kathleen Rowling</author>
+            <bookseller>Bloomsbury</bookseller>
+            <bookTitle>Harry Potter and the philosopher's stone</bookTitle>
+            <bookValue>8.99</bookValue>
+            <coverType cover="hard"/>
+            <bookReleaseDate>1997</bookReleaseDate>
+            <readersRating>73</readersRating>
+            <bookGenre>Fantasy</bookGenre>
+        </book>
+
+        <book ID="AST1" lDepID="LD3">
+            <author>Rene Goscinny</author>
+            <bookseller>Dargaud</bookseller>
+            <bookTitle>Asterix</bookTitle>
+            <bookValue>9.99</bookValue>
+            <coverType cover="soft"/>
+            <bookReleaseDate>1959</bookReleaseDate>
+            <readersRating>76</readersRating>
+            <bookGenre>Comic Books</bookGenre>
+        </book>
+
+        <book ID="JOC1" lDepID="LD7">
+            <author>Marion Rombauer</author>
+            <bookseller>Boobs Merril Company</bookseller>
+            <bookTitle>The joy of cooking</bookTitle>
+            <bookValue>23.99</bookValue>
+            <coverType cover="soft"/>
+            <bookReleaseDate>1931</bookReleaseDate>
+            <readersRating>79</readersRating>
+            <bookGenre>Cookbooks</bookGenre>
+        </book>
+
+        <book ID="TBT1" lDepID="LD1">
+            <author>Markus Zusak</author>
+            <bookseller>Picador</bookseller>
+            <bookTitle>The book thief</bookTitle>
+            <bookValue>42.99</bookValue>
+            <coverType cover="hard"/>
+            <bookReleaseDate>2005</bookReleaseDate>
+            <readersRating>88</readersRating>
+            <bookGenre>Historical Fiction</bookGenre>
+        </book>
+
+        <book ID="JA1" lDepID="LD8">
+            <author>David McCullogh</author>
+            <bookseller>Simon and Shuster</bookseller>
+            <bookTitle>John Adams</bookTitle>
+            <bookValue>7.99</bookValue>
+            <coverType cover="hard"/>
+            <bookReleaseDate>2001</bookReleaseDate>
+            <readersRating>67</readersRating>
+            <bookGenre>History</bookGenre>
+        </book>
+
+        <book ID="BAR1" lDepID="LD9">
+            <author>Adam Mickiewicz</author>
+            <bookseller>Egmont</bookseller>
+            <bookTitle>Ballads and romances</bookTitle>
+            <bookValue>18.99</bookValue>
+            <coverType cover="soft"/>
+            <bookReleaseDate>1822</bookReleaseDate>
+            <readersRating>69</readersRating>
+            <bookGenre>Poetry</bookGenre>
+        </book>
+
+        <book ID="LOTRTT1" lDepID="LD1">
+            <author>John Ronald Reuel Tolkien</author>
+            <bookseller>Allen and Ulwin</bookseller>
+            <bookTitle>The Lord of the Rings. The two towers</bookTitle>
+            <bookValue>32.99</bookValue>
+            <coverType cover="hard"/>
+            <bookReleaseDate>1955</bookReleaseDate>
+            <readersRating>84</readersRating>
+            <bookGenre>Fantasy</bookGenre>
+        </book>
+
+        <book ID="LW1" lDepID="LD5">
+            <author>Louisa May Alcott</author>
+            <bookseller>Roberts Brothers</bookseller>
+            <bookTitle>Little Women</bookTitle>
+            <bookValue>25.99</bookValue>
+            <coverType cover="hard"/>
+            <bookReleaseDate>1868</bookReleaseDate>
+            <readersRating>82</readersRating>
+            <bookGenre>Drama</bookGenre>
+        </book>
+
+        <book ID="MOE1" lDepID="LD4">
+            <author>Agatha Christie</author>
+            <bookseller>Collins Crime Club</bookseller>
+            <bookTitle>Murder on the Orient Express</bookTitle>
+            <bookValue>16.99</bookValue>
+            <coverType cover="soft"/>
+            <bookReleaseDate>1868</bookReleaseDate>
+            <readersRating>68</readersRating>
+            <bookGenre>Detective</bookGenre>
+        </book>
+
+        <book ID="S1" lDepID="LD3">
+            <author>Jerry Siegel</author>
+            <bookseller>DC Comics</bookseller>
+            <bookTitle>Superman</bookTitle>
+            <bookValue>6.99</bookValue>
+            <coverType cover="hard"/>
+            <bookReleaseDate>1938</bookReleaseDate>
+            <readersRating>91</readersRating>
+            <bookGenre>Comic Books</bookGenre>
+        </book>
+
+        <book ID="LDV1" lDepID="LD6">
+            <author>Charles Nicholl</author>
+            <bookseller>Simon and Shuster</bookseller>
+            <bookTitle>Leonardo da Vinci</bookTitle>
+            <bookValue>41.99</bookValue>
+            <coverType cover="hard"/>
+            <bookReleaseDate>2017</bookReleaseDate>
+            <readersRating>90</readersRating>
+            <bookGenre>Biography</bookGenre>
+        </book>
+
+        <book ID="GOT1" lDepID="LD1">
+            <author>Goerge Raymond Richard Martin</author>
+            <bookseller>Voyager Books</bookseller>
+            <bookTitle>A Game of Thrones</bookTitle>
+            <bookValue>55.99</bookValue>
+            <coverType cover="hard"/>
+            <bookReleaseDate>1996</bookReleaseDate>
+            <readersRating>86</readersRating>
+            <bookGenre>Fantasy</bookGenre>
+        </book>
+
+        <book ID="MAFC1" lDepID="LD7">
+            <author>JuliaChild</author>
+            <bookseller>Boobs Merril Company</bookseller>
+            <bookTitle>Mastering the Art of French Cooking</bookTitle>
+            <bookValue>3.99</bookValue>
+            <coverType cover="soft"/>
+            <bookReleaseDate>1961</bookReleaseDate>
+            <readersRating>76</readersRating>
+            <bookGenre>Cookbooks</bookGenre>
+        </book>
+
+        <book ID="TM1" lDepID="LD2">
+            <author>Alexander Dumas</author>
+            <bookseller>Simon and Shuster</bookseller>
+            <bookTitle>The Three Musketeers</bookTitle>
+            <bookValue>22.99</bookValue>
+            <coverType cover="hard"/>
+            <bookReleaseDate>1844</bookReleaseDate>
+            <readersRating>70</readersRating>
+            <bookGenre>Historical Fiction</bookGenre>
+        </book>
+
+        <book ID="LG1" lDepID="LD9">
+            <author>Walt Whitman</author>
+            <bookseller>Self</bookseller>
+            <bookTitle>Leaves of Grass</bookTitle>
+            <bookValue>5.99</bookValue>
+            <coverType cover="soft"/>
+            <bookReleaseDate>1855</bookReleaseDate>
+            <readersRating>80</readersRating>
+            <bookGenre>Poetry</bookGenre>
+        </book>
+
+        <book ID="TGA1" lDepID="LD8">
+            <author>BarbaraTuchman</author>
+            <bookseller>Simon and Shuster</bookseller>
+            <bookTitle>The Guns of August</bookTitle>
+            <bookValue>45.99</bookValue>
+            <coverType cover="hard"/>
+            <bookReleaseDate>1962</bookReleaseDate>
+            <readersRating>90</readersRating>
+            <bookGenre>History</bookGenre>
+        </book>
+
+        <book ID="AK1" lDepID="LD5">
+            <author>Leo Tolstoy</author>
+            <bookseller>Bantam Classics Paper Back</bookseller>
+            <bookTitle>Anna Karenina</bookTitle>
+            <bookValue>8.99</bookValue>
+            <coverType cover="soft"/>
+            <bookReleaseDate>1877</bookReleaseDate>
+            <readersRating>65</readersRating>
+            <bookGenre>Drama</bookGenre>
+        </book>
+    </bookCatalog>
+</task3>
